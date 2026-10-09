@@ -23,7 +23,7 @@ const Favorite = ({ favorite, setFavorite }) => {
               <div className="w-full  dark:hover:bg-[#161B22] transition-all duration-500 px-4 py-4 bg-[#F6F8FA] dark:bg-[#161B22] flex flex-col items-center gap-5 rounded-xl border-[#30363d0f] dark:border-[#30363d6b] border h-110">
                 <img
                   src={user.avatar_url}
-                  className="object-cover w-40 h-40 rounded-full"
+                  className="object-cover outline-1 outline-[#30363d6b] outline-offset-4 w-40 h-40 rounded-full"
                 />
                 <div className="flex flex-col gap items-center h-[20%] w-full">
                   <h1 className="font-black dark:text-lime-50 text-xl w-full flex items-center justify-center gap-2">
